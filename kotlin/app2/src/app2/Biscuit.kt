@@ -1,3 +1,7 @@
+/**
+  author: fullarray
+*/
+
 package app1
 
 /**
@@ -33,32 +37,27 @@ open class Roll(flavour: String): BakeryGood(flavour){
 
 class CinnamonRoll: Roll("Cinnamon")
 
-
-
 /**open class Donut(flavour: String, val topping: String): BakeryGood(flavour){
 	override fun name(): String{
 		return "donut with $topping topping"
 	}
 }*/
 
-
-
-
 class Cupcake(flavour: String): BakeryGood(flavour){
 	override fun name(): String{
-		return "Cupcake"
+		return "Cupcakes"
 	}
 }
 
 class Biscuit(flavour: String): BakeryGood(flavour){
 	override fun name(): String{
-		return "Biscuit"
+		return "Biscuits"
 	}
 }
 
 fun main(args: Array<String>){
 	val myBlueberryCupcake: BakeryGood = Cupcake("Blueberry")
-	val myDonut = Donut("Custard", "Powdered sugar")
+	val myDonut = Donut("Custards", "Powdered sugar")
 	println(myBlueberryCupcake.eat())
 	println(myDonut.eat())
 }
