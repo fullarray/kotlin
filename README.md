@@ -1,1 +1,1 @@
-Kotlin apps, single code reference, or projects
+# Kotlin code, designs, and apps by me. Projects
