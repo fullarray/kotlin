@@ -1,6 +1,5 @@
 package app1
-class VeryBasic {
-	
+class VeryBasic {	
 }
 fun main(args: Array<String>){
 	val basic: VeryBasic = VeryBasic()
